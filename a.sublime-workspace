@@ -1,0 +1,476 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"endif"
+			],
+			[
+				"G",
+				"Game"
+			],
+			[
+				"Ga",
+				"GameEngine"
+			],
+			[
+				"st",
+				"std"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"win",
+				"window1"
+			],
+			[
+				"m",
+				"myCurrentSize"
+			],
+			[
+				"b",
+				"b"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 5459,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "//configuration file of game\n\n\n//#include <SFML/audio.hpp>\n#include <GL/glew.h>\n#include <GL/glm/glm.hpp>\n#include <iostream>\n#include <string>\n#include \"source/GameEngine/GameEngine.hpp\"\n#include <GL/glm/gtc/matrix_transform.hpp>\n//#include <assimp/Importer.hpp>\n//#include <assimp/scene.h>\n//#include <assimp/postprocess.h>\n//#include <vector>\n#define Array std::vector\n\n#ifndef GAME_NAME\n#define GAME_NAME \"Gorakshya: The Brave Leads The Way\" //name for the window\n#endif\n\n#ifdef _cplusplus\nextern \"C\"{\n#endif\n\n\n#ifdef _cplusplus\n}\n#endif",
+			"file": "config.h",
+			"file_size": 546,
+			"file_write_time": 131833917705847327,
+			"settings":
+			{
+				"buffer_size": 541,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "#ifndef __GAME_ENGINE\n#define __GAME_ENGINE\n\n#include \"platform/pf.hpp\"\n#include \"input/input.hpp\"\n#include \"renderer/modelLoader.hpp\"\n#include \"renderer/LoadShader.hpp\"\n#endif\n",
+			"file": "source/GameEngine/GameEngine.hpp",
+			"file_size": 185,
+			"file_write_time": 131831233400000000,
+			"settings":
+			{
+				"buffer_size": 177,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main1.cpp",
+			"settings":
+			{
+				"buffer_size": 1531,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assimptry.cpp",
+			"settings":
+			{
+				"buffer_size": 589,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Dell/Documents/project/ArmyGame",
+		"/C/Users/Dell/Documents/project/ArmyGame/source",
+		"/C/Users/Dell/Documents/project/ArmyGame/source/GameEngine"
+	],
+	"file_history":
+	[
+		"/C/Users/Dell/Documents/computer_graphics/window.cpp",
+		"/E/Tutorials/OPENGL/New folder/ogl-2.1_branch/ogl-2.1_branch/common/shader.cpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/source/GameEngine/platform/pf.hpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/source/GameEngine/platform/PfWindow.hpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/source/GameEngine/platform/PfWindow.cpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/include/SFML/Graphics/RenderWindow.hpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/Assimp/include/assimp/scene.h",
+		"/C/Users/Bpnac/Desktop/ArmyGame/assimptry.cpp",
+		"/E/Tutorials/OPENGL/New folder/ogl-2.1_branch/ogl-2.1_branch/tutorial16_shadowmaps/tutorial16.cpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/libcreation/shaderloader/loadshader.cpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/libcreation/shaderloader/loadshader.hpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/include/Assimp/include/assimp/scene.h",
+		"/G/asss.cpp",
+		"/E/Tutorials/OPENGL/assimp-3.3.1/assimp-3.1.1_no_test_models/assimp-3.1.1/samples/SimpleOpenGL/Sample_SimpleOpenGL.c",
+		"/C/Users/Bpnac/Desktop/ArmyGame/include/Assimp/include/assimp/Importer.hpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/Window.cpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/main2.cpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/main1.cpp",
+		"/E/Tutorials/OPENGL/New folder/ogl-2.1_branch/ogl-2.1_branch/tutorial16_shadowmaps/tutorial16_SimpleVersion.cpp",
+		"/E/Tutorials/OPENGL/New folder/ogl-2.1_branch/ogl-2.1_branch/tutorial16_shadowmaps/ShadowMapping.vertexshader",
+		"/E/Tutorials/OPENGL/New folder/ogl-2.1_branch/ogl-2.1_branch/tutorial16_shadowmaps/ShadowMapping.fragmentshader",
+		"/E/Tutorials/OPENGL/New folder/ogl-2.1_branch/ogl-2.1_branch/common/shader.hpp",
+		"/E/p/FMS/main.cpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/include/SFML/OpenGL.hpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/include/SFML/Graphics.hpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/include/SFML/System/Vector2.hpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/config.h",
+		"/E/Tutorials/OPENGL/New folder/ogl-2.1_branch/ogl-2.1_branch/tutorial16_shadowmaps/SimpleTexture.fragmentshader",
+		"/E/Tutorials/OPENGL/New folder/ogl-2.1_branch/ogl-2.1_branch/tutorial16_shadowmaps/ShadowMapping_SimpleVersion.vertexshader",
+		"/E/Tutorials/OPENGL/New folder/ogl-2.1_branch/ogl-2.1_branch/tutorial16_shadowmaps/ShadowMapping_SimpleVersion.fragmentshader",
+		"/E/Tutorials/OPENGL/New folder/ogl-2.1_branch/ogl-2.1_branch/tutorial16_shadowmaps/Passthrough.vertexshader",
+		"/E/Tutorials/OPENGL/New folder/ogl-2.1_branch/ogl-2.1_branch/tutorial16_shadowmaps/DepthRTT.fragmentshader",
+		"/E/Tutorials/OPENGL/New folder/ogl-2.1_branch/ogl-2.1_branch/tutorial16_shadowmaps/DepthRTT.vertexshader",
+		"/C/Users/Bpnac/Desktop/benny/CGFX5/src/platform/opengl/openGLRenderDevice.cpp",
+		"/C/Program Files/Blender Foundation/Blender/2.79/scripts/addons/cycles/shader/node_glass_bsdf.oso",
+		"/C/Users/Bpnac/Desktop/s.bat",
+		"/C/Users/Bpnac/Desktop/benny/CGFX5/src/rendering/shader.hpp",
+		"/C/Users/Bpnac/Desktop/benny/CGFX5/src/core/window.hpp",
+		"/C/Users/Bpnac/Desktop/benny/CGFX5/src/input/iinput.h",
+		"/C/Users/Bpnac/Desktop/benny/CGFX5/src/dataStructures/string.hpp",
+		"/E/Tutorials/OPENGL/SFML/SFML-2.5.0-windows-gcc-7.3.0-mingw-32-bit/SFML-2.5.0/examples/opengl/OpenGL.cpp",
+		"/E/Tutorials/OPENGL/SFML/SFML-2.5.0-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.0/examples/shader/Shader.cpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/main.cpp",
+		"/C/Users/Bpnac/Desktop/benny/CGFX5/src/dataStructures/string.cpp",
+		"/C/Users/Bpnac/Desktop/benny/CGFX5/src/dataStructures/array.hpp",
+		"/C/Users/Bpnac/Desktop/benny/CGFX5/src/dataStructures/map.hpp",
+		"/E/Tutorials/OPENGL/SFML/SFML-2.5.0-windows-gcc-7.3.0-mingw-64-bit/SFML-2.5.0/examples/shader/Effect.hpp",
+		"/C/Users/Bpnac/Desktop/ArmyGame/a.sublime-project"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"GAME_NAME",
+			"y",
+			"EXIT_SUCCESS"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								630,
+								624
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								467,
+								467
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/GameEngine/GameEngine.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "main1.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1531,
+								1076
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 702.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assimptry.cpp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "a.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
