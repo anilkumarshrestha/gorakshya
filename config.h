@@ -15,7 +15,7 @@
 #define Array std::vector
 
 #ifndef GAME_NAME
-#define GAME_NAME "Gorakshya: The Brave Leads The Way"
+#define GAME_NAME "Gorakshya: The Brave Leads The Way" //name for the window
 #endif
 
 #ifdef _cplusplus
