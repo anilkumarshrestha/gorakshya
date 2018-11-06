@@ -1,0 +1,4 @@
+date 2018-10-06 (stage_code: YELLOW CUBE)
+compile.bat runs as is (path is D:\ArmyGame, change as needed).
+Used - mingw with gcc 7.3.0 SEH win32 threads, SFML 2.5.0, assimp 4.1.0, glew 2.1.0,  glm 0.9.9.2
+Have used x64(as opposed to Win32) libs up until now. dlls have been sent to system32

@@ -1,0 +1,35 @@
+#version 330 
+#extension GL_ARB_explicit_attrib_location : require
+precision lowp float;
+
+layout(location = 0) in vec3 vertexPosition_modelspace;
+layout(location = 1) in ivec3 bone_ids;     // INT pointer
+layout(location = 2) in vec3 weights;
+layout(location = 3) in vec2 vertexUV;
+//out float abcd;
+out vec2 UV;
+
+uniform mat4 MVP;
+
+const int MAX_BONES = 100;
+uniform mat4 bones[MAX_BONES];
+void main()
+{
+
+	mat4 bone_transform;
+	
+
+	bone_transform = bones[bone_ids[0]] * weights[0];
+	bone_transform += bones[bone_ids[1]] * weights[1];
+	bone_transform += bones[bone_ids[2]] * weights[2];	
+
+	/*if (vertexPosition_modelspace.z<=3){
+		abcd = 0.0f;
+	}else if(vertexPosition_modelspace.z>3){
+		abcd = 1.0f;	
+	}*/
+
+	//abcd = vec4(vertexPosition_modelspace,1.0f);
+	UV = vertexUV;
+	gl_Position = MVP   * bone_transform * vec4(vertexPosition_modelspace,1.0) ;
+}
