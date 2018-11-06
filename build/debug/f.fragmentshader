@@ -1,6 +1,12 @@
-#version 120
+#version 330 
+#extension GL_ARB_explicit_attrib_location : require
+precision lowp float;
+
+//in float abcd;
+in vec2 UV;
+uniform sampler2D myTextureSampler;
+
 
 void main(){
-
-	gl_FragColor = vec4(1.0f,1.0f,0.0f,1.0f);
+    gl_FragColor =  texture(myTextureSampler, UV);
 }

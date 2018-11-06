@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
+	<head>
+		<meta name="filename" content="simplestAnimation.x3d" />
+		<meta name="generator" content="Blender 2.79 (sub 0)" />
+	</head>
+	<Scene>
+		<NavigationInfo headlight="false"
+		                visibilityLimit="0.0"
+		                type='"EXAMINE", "ANY"'
+		                avatarSize="0.25, 1.75, 0.75"
+		                />
+		<Background DEF="WO_World"
+		            groundColor="0.051 0.051 0.051"
+		            skyColor="0.051 0.051 0.051"
+		            />
+		<Transform DEF="Armature_TRANSFORM"
+		           translation="0.817049 0.000000 0.000000"
+		           scale="1.952392 1.952392 1.952392"
+		           rotation="0.627229 -0.560569 -0.540691 2.277214"
+		           >
+			<Transform DEF="Cube_TRANSFORM"
+			           translation="0.000136 0.070531 0.412500"
+			           scale="0.512192 0.512192 0.512192"
+			           rotation="-0.018051 -0.988415 0.150696 1.570796"
+			           >
+				<Transform DEF="Cube_ifs_TRANSFORM"
+				           translation="0.000000 0.000000 0.000000"
+				           scale="1.000000 1.000000 1.000000"
+				           rotation="0.000000 0.000000 0.000000 0.000000"
+				           >
+					<Group DEF="group_ME_Cube">
+						<Shape>
+							<Appearance>
+								<Material DEF="MA_Material"
+								          diffuseColor="0.800 0.800 0.800"
+								          specularColor="0.401 0.401 0.401"
+								          emissiveColor="0.000 0.000 0.000"
+								          ambientIntensity="0.333"
+								          shininess="0.098"
+								          transparency="0.0"
+								          />
+							</Appearance>
+							<IndexedTriangleSet solid="true"
+							                    normalPerVertex="true"
+							                    index="0 1 2 0 2 3 4 5 6 4 6 7 4 7 8 4 8 9 1 7 6 1 6 2 2 6 5 2 5 3 4 0 3 4 3 5 9 8 10 9 10 11 7 1 12 7 12 8 0 4 9 0 9 13 1 0 13 1 13 12 14 11 10 14 10 15 13 9 11 13 11 14 8 12 15 8 15 10 12 13 14 12 14 15 "
+							                    >
+								<Coordinate point="0.983347 0.994575 -0.998603 0.995556 -1.004476 -0.989191 -0.996366 -1.000413 -0.999900 -0.997156 1.000000 -1.000516 1.001847 1.006145 0.998951 -1.003034 0.999112 1.002037 -0.995598 -1.002300 1.012004 1.049725 -0.982670 1.020138 2.576021 -0.919107 0.915160 2.500823 1.071689 0.862703 3.939368 -0.860354 0.812598 3.857195 1.131292 0.752145 2.428301 -0.991208 -1.073497 2.367137 1.006088 -1.128967 3.731524 1.057620 -1.239500 3.808864 -0.936383 -1.180129 " />
+								<Normal vector="-0.035829 0.708975 -0.704306 -0.014283 -0.724052 -0.689566 -0.575182 -0.579272 -0.577563 -0.576342 0.576312 -0.579333 0.018097 0.701468 0.712424 -0.579547 0.578234 0.574206 -0.575488 -0.577441 0.579089 0.038392 -0.692557 0.720298 0.079958 -0.685751 0.723411 0.029481 0.726493 0.686514 0.640370 -0.533433 0.552568 0.591113 0.620441 0.515336 -0.028535 -0.731223 -0.681509 -0.079745 0.682943 -0.726066 0.511429 0.578387 -0.635517 0.558275 -0.573595 -0.599384 " />
+							</IndexedTriangleSet>
+						</Shape>
+					</Group>
+				</Transform>
+			</Transform>
+		</Transform>
+		<Transform DEF="Lamp_TRANSFORM"
+		           translation="-4.076245 5.903862 1.005454"
+		           scale="1.000000 1.000000 1.000000"
+		           rotation="-0.498084 -0.762016 -0.413815 1.513875"
+		           >
+			<PointLight DEF="LA_Lamp"
+			            ambientIntensity="0.0000"
+			            color="1.0000 1.0000 1.0000"
+			            intensity="0.5714"
+			            radius="30.0000" 
+			            location="-0.0000 -0.0000 0.0000"
+			            />
+		</Transform>
+		<Transform DEF="Camera_TRANSFORM"
+		           translation="-7.481132 5.343665 -6.507640"
+		           scale="1.000000 1.000000 1.000000"
+		           rotation="-0.098233 -0.968789 -0.227591 2.349487"
+		           >
+			<Viewpoint DEF="CA_Camera"
+			           centerOfRotation="0 0 0"
+			           position="-0.00 -0.00 0.00"
+			           orientation="-0.00 -0.47 -0.88 0.00"
+			           fieldOfView="0.858"
+			           />
+		</Transform>
+	</Scene>
+</X3D>
